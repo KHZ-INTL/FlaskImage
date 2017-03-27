@@ -20,7 +20,11 @@ A Flask/Jinja2 driven webApp. that aims to provide images related to search term
       <Protocol><webserver +- (port)>/<searchTerm>
   Example:
     http://localhost:5000/Flowers
- 
+# Screenshots
+![alt tag](https://github.com/KHZ-INTL/FlaskImage/blob/master/1.png)
+![alt tag](https://github.com/KHZ-INTL/FlaskImage/blob/master/2.png)
+
+
  # Additional Notes
  This tool was made and used for educational purposes (1: Analyse Androidesk behaviours and personal information leaks, 2: Understand http protical and reverse engineer http requests, 3: learn python and Flask and etc...).
  Outcome of research into Androidesk app:
