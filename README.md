@@ -28,7 +28,7 @@ A Flask/Jinja2 driven webApp. that aims to provide images related to search term
  # Additional Notes
  This tool was made and used for educational purposes (1: Analyse Androidesk behaviours and personal information leaks, 2: Understand http protical and reverse engineer http requests, 3: learn python and Flask and etc...).
  Outcome of research into Androidesk app:
-  + Advertisement and information leak: Analysing Androidesk https activity, important personal information about the user and mobile were leaked: 
+  + information leaks: Analysing Androidesk https activity, important personal information about the user and mobile were leaked: 
     + device name
     + Device IMEI,
     + brand and model
