@@ -10,16 +10,17 @@ A Flask/Jinja2 driven webApp. that aims to provide images related to search term
 
 2. Run the app on a webserver:
   FlaskImage(This App) can run a webserver to host itself. For Flask to run a webserver, simple run the pyImage.py:
-  + Windows: open a Command Prompt and use 'cd' command to navigate CMD to FlaskImage folder and type: python pyimage.py
-  +Example: 
-    +1:"cd C:\Users\%username%\Downloads\FlaskImage\"
-    +2:"python pyimage.py"
+   + Windows: open a Command Prompt and use 'cd' command to navigate CMD to FlaskImage folder
+   + type: python pyimage.py
+  + Example: 
+    + 1:"cd C:\Users\%username%\Downloads\FlaskImage\"
+    + 2:"python pyimage.py"
 
 ## Usage:
     Append "/" and your search term to the URL:
-      <Protocol><webserver(port)>/<searchTerm>
+      + <Protocol><webserver(port)>/<searchTerm>
   Example:
-    http://localhost:5000/Flowers
+   + http://localhost:5000/Flowers
 # Screenshots
 ![alt tag](https://github.com/KHZ-INTL/FlaskImage/blob/master/1.png)
 ![alt tag](https://github.com/KHZ-INTL/FlaskImage/blob/master/2.png)
@@ -41,8 +42,8 @@ A Flask/Jinja2 driven webApp. that aims to provide images related to search term
 Knowing these personal information can lead to identifiying specific exploits and potentially exploiting the system.
 
 By using this script/application you are agreeing to the terms and agreements:
-1: The developer of FlaskImage/Pymage (KHZ-INTL) is not responsible for the wrong doings of your actions and descions.
-2: This software should not be used for piracy of contents associated with Androidesk.
++ 1: The developer of FlaskImage/Pyimage (KHZ-INTL) is not responsible for the wrong doings of your actions and descions.
++ 2: This software should not be used for piracy of contents associated with Androidesk.
 
 Credits:
 + All resources are from androidesk and the credits for each photo/image goes to its respective owner.
