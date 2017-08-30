@@ -9,13 +9,9 @@ def fetch(item=""):
     imageurl= 'http://so.picasso.adesk.com/v1/search/wallpaper/resource/'+ str(item) + '?limit=30&channel=androidesk&adult=false&first=0'
     head = {'user-agent': "picasso,174,androidesk", 'Accept-Encoding': 'gzip', 'host': 'so.picasso.adesk.com'}
     conn = requests.get(imageurl, headers=head)
-    conn.json()
+    conn = conn.json()
     res = conn.content
-    if conn.status_code == "ValueError: No JSON object could be decoded":
-        res = conn.content
-    else:
-        res = conn.json()
-    return res
+    return conn # change this to "res" if there is type error 
 
 
 # def recursive_items(dictionary):
